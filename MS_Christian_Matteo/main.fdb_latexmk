@@ -4,7 +4,7 @@
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1743522031 "/home/christian/Documents/Praktikum/MS_Christian_Matteo/main.tex" "main.pdf" "main" 1743522031
+["pdflatex"] 1743524962 "/home/christian/Documents/Praktikum/MS_Christian_Matteo/main.tex" "main.pdf" "main" 1743524962
   "/etc/texmf/web2c/texmf.cnf" 1734799822 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/christian/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1729244593 1405754 b0b1d83468883208ac7b81347763fa01 ""
   "/home/christian/Documents/Praktikum/MS_Christian_Matteo/main.tex" 1743522028 12901 fa7c22cc19fdaca44b56c698c239c590 ""
@@ -188,11 +188,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734799826 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "StandardPages.sty" 1743502652 3904 60090d9df3e1272b97b96a5d4725fb74 ""
-  "chapters/Auswertung.tex" 1743522028 4598 77be65e6111f1570ec211b30a393e029 ""
+  "chapters/Auswertung.tex" 1743524959 4991 01b04ad03a6bdd2ec237b762496b26e1 ""
   "chapters/Durchführung.tex" 1743509230 4502 d53a57a7776df56423aeb3e8071d4a1e ""
   "chapters/theory.tex" 1743502652 2950 565aa428856687d384b54cb8a7fa2065 ""
-  "main.aux" 1743522031 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.bbl" 0 -1 0 "biber main"
+  "main.aux" 1743524962 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.bbl" 1743524960 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
   "main.out" 0 -1 0 "pdflatex"
   "main.run.xml" 0 -1 0 "pdflatex"
   "main.tex" 1743522028 12901 fa7c22cc19fdaca44b56c698c239c590 ""

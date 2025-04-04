@@ -11,7 +11,7 @@
 %% standard input packages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
+\usepackage[ngerman]{babel}
 %\renewcommand{\familydefault}{\rmdefault}
 % \usepackage{lmodern}
 \usepackage[T1]{fontenc}
@@ -58,8 +58,8 @@
 % \usepackage[off,width=210truemm,height=297truemm,center]{crop}
 
 % real twosided printing: https://www.online-druck.biz/infos/kundenservice/daten_vorliegen/#infoblatt-druckdaten
-%printing
-\usepackage[twoside, dvips=false, pdftex=false, vtex=false, a4paper, left=3.2cm, right=2cm, top=2.7cm, bottom=3.0cm, head=14.5pt]{geometry} 
+%printing  dvips=false, pdftex=false, vtex=false, 
+\usepackage[a4paper, left=2.6cm, right=2.6cm, top=2.7cm, bottom=3.0cm, head=14.5pt]{geometry} 
 \usepackage[off,width=216truemm,height=303truemm,center]{crop}
 
 %kurzer Check dann auf https://www.check4print.com
@@ -179,10 +179,10 @@
 ]{caption}
 
 % macros for references
-\newcommand{\figref}[1]{Fig.\,\ref{#1}}
-\newcommand{\secref}[1]{Section\,\ref{#1}}
-\newcommand{\chref}[1]{Chapter\,\ref{#1}}
-\renewcommand{\eqref}[1]{Eq.\,(\ref{#1})}
+\newcommand{\figref}[1]{Abb.\,\ref{#1}}
+\newcommand{\secref}[1]{Abschnitt\,\ref{#1}}
+\newcommand{\chref}[1]{Kapitel\,\ref{#1}}
+\renewcommand{\eqref}[1]{Gleichung\,(\ref{#1})}
 \newcommand{\appref}[1]{Appendix\,(\ref{#1})}
 \newcommand{\anticomm}[2]{\left\{#1, #2\right\}}
 
@@ -198,7 +198,7 @@
 
 %% information for the title page (tp) 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\tpauthorname}{Christian Gommeringer}
+\newcommand{\tpauthorname}{Christian Gommeringer\\Matteo Fassnacht}
 % \newcommand{\tpauthornamesecond}{Matteo Fassnacht}
 \newcommand{\tpsupervisors}{Luis Bauer}
 \newcommand{\tpevaluators}{Prof. Dr. Igor Lesanovsky}
@@ -223,6 +223,7 @@
 \newcommand{\kw}{\frac{\Omega^2}{K}}
 \newcommand{\ty}{\tilde{y}}
 \newcommand{\diff}{\text{d}}
+\let\cleardoublepage\clearpage
 \begin{document}
 
 \maketitlepage
@@ -251,8 +252,9 @@
 % \newpage
 
 \input{chapters/theory.tex}
-% \input{chapters/Durchführung.tex}
-% \input{chapters/Auswertung.tex}
+\input{chapters/Durchführung.tex}
+\input{chapters/Auswertung.tex}
+\input{chapters/Fazit}
 % \clearpage
 % \input{chapters/zero_detuning.tex}
 % \clearpage

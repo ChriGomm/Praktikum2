@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber main"] 0 "main.bcf" "main.bbl" "main" 0
-  "main.bcf" 0 -1 0 "pdflatex"
+["biber main"] 1743618243 "main.bcf" "main.bbl" "main" 1743618245
+  "main.bcf" 1743611909 106159 2c0bc68de3510f299ec409cd46f9361f "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1743524962 "/home/christian/Documents/Praktikum/MS_Christian_Matteo/main.tex" "main.pdf" "main" 1743524962
+["pdflatex"] 1743618245 "/home/christian/Documents/Praktikum/MS_Christian_Matteo/main.tex" "main.pdf" "main" 1743618245
   "/etc/texmf/web2c/texmf.cnf" 1734799822 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/christian/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1729244593 1405754 b0b1d83468883208ac7b81347763fa01 ""
   "/home/christian/Documents/Praktikum/MS_Christian_Matteo/main.tex" 1743522028 12901 fa7c22cc19fdaca44b56c698c239c590 ""
@@ -191,12 +191,12 @@
   "chapters/Auswertung.tex" 1743524959 4991 01b04ad03a6bdd2ec237b762496b26e1 ""
   "chapters/Durchführung.tex" 1743509230 4502 d53a57a7776df56423aeb3e8071d4a1e ""
   "chapters/theory.tex" 1743502652 2950 565aa428856687d384b54cb8a7fa2065 ""
-  "main.aux" 1743524962 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "main.bbl" 1743524960 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
+  "main.aux" 0 -1 0 "pdflatex"
+  "main.bbl" 1743618243 0 d41d8cd98f00b204e9800998ecf8427e "biber main"
   "main.out" 0 -1 0 "pdflatex"
-  "main.run.xml" 0 -1 0 "pdflatex"
+  "main.run.xml" 1743618244 2349 6e63c9895a77192ba738dd7289e44603 "pdflatex"
   "main.tex" 1743522028 12901 fa7c22cc19fdaca44b56c698c239c590 ""
-  "pictures/glas_ausw.pdf" 1743519984 238000 95d4faa53b6af2aa24b66a42e2cddd03 ""
+  "pictures/glas_ausw.pdf" 1743618243 239081 a89dc6d10cbc6d135a34f53458a9db5f ""
   "pictures/ms_interferometer_aufbau.png" 1743502652 10265 08795857648253f17e170882763d387d ""
   "pictures/path3.pdf" 1743502652 15341 0401499ed08e2e43ba7b808d58c3c513 ""
   "pictures/path7.pdf" 1743502652 3900 47b10adb64024ea55ddbb60c58b6c7cf ""
